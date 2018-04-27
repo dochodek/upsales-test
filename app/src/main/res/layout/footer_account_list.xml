@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:wheel="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/load_more_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize"
+    android:background="@drawable/upsales_blue_background"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:focusable="true"
+    android:clickable="true">
+
+    <TextView
+        android:id="@+id/load_more"
+        tools:ignore="MissingPrefix"
+        fontPath="fonts/Roboto-Bold.ttf"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text="@string/load_more"
+        android:textColor="@color/white_material"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <com.pnikosis.materialishprogress.ProgressWheel
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:id="@+id/progress"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        wheel:matProg_barColor="@color/white_material"
+        wheel:matProg_progressIndeterminate="true" />
+</RelativeLayout>

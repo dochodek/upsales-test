@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_filter"
+        android:title="@string/filter"
+        android:icon="@drawable/ic_filter_light_blue_24dp"
+        android:orderInCategory="300"
+        app:showAsAction="ifRoom" />
+</menu>

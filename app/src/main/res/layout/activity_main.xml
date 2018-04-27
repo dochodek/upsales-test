@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/Toolbar"
+        layout="@layout/toolbar"/>
+
+    <!-- List -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+        <include
+            android:id="@+id/recycler"
+            layout="@layout/recycler" />
+        <ViewStub
+            android:id="@+id/empty_ok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:layout="@layout/empty_accounts" />
+
+        <ViewStub
+            android:id="@+id/empty_network"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:layout="@layout/empty_network"/>
+        <ViewStub
+            android:id="@+id/empty_error"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="4dp"
+            android:layout="@layout/empty_error" />
+        <ViewStub
+            android:id="@+id/progress"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout="@layout/progress" />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Upsales</string>
+    <string name="data_failed_to_load">Data failed to load.</string>
+    <string name="please_check_your_internet_connection">Please check your internet connection.</string>
+    <string name="no_success">No success</string>
+    <string name="filter">Filter</string>
+    <string name="empty">No items</string>
+    <string name="companies">Companies</string>
+    <string name="filters">Filters</string>
+    <string name="load_more">Load More</string>
+    <string name="visit_address">Visit address</string>
+</resources>

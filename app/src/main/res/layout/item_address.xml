@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        android:id="@+id/root_element"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+        android:background="?selectableItemBackground"
+        android:padding="16dp"
+        android:focusable="true"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/visit_address_label"
+                tools:ignore="MissingPrefix"
+                fontPath="fonts/Roboto-Bold.ttf"
+                android:text="@string/visit_address"
+                android:layout_marginBottom="4dp"
+                android:lines="1"
+                android:textColor="@color/black_material"
+                android:textSize="16sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/street"
+                android:text="@string/companies"
+                android:layout_marginBottom="2dp"
+                android:lines="1"
+                android:textColor="@color/upsales_dark_grey"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/city"
+                android:text="@string/companies"
+                android:lines="1"
+                android:textColor="@color/upsales_dark_grey"
+                android:textSize="14sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_maps"
+            android:layout_alignParentRight="true"
+            android:layout_width="48dp"
+            android:layout_height="48dp" />
+    </RelativeLayout>
+

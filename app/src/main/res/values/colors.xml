@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/upsales_blue</color>
+    <color name="colorPrimaryDark">@color/upsales_deep_blue</color>
+    <color name="colorAccent">@color/upsales_blue</color>
+
+
+    <color name="upsales_deep_blue">#052A4F</color>
+    <color name="upsales_blue">#002F65</color>
+    <color name="upsales_medium_blue">#3367C0</color>
+    <color name="upsales_bright_blue">#4A90E2</color>
+    <color name="upsales_baby_blue">#E4EDF7</color>
+    <color name="upsales_baby_blue_pressed">#ced7e1</color>
+    <color name="upsales_main_text_color">#1e252e</color>
+    <color name="upsales_dark_grey">#4B5562</color>
+
+    <color name="upsales_icon">#99abc1</color>
+
+    <color name="white_material">#ffffff</color>
+    <color name="black_material">#000000</color>
+
+</resources>
